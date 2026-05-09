@@ -1,0 +1,72 @@
+SQL Data Types SQL data types are used to specify the type of data that can be stored in a table column.
+Numeric Data Types :Numeric data types are used to store numbers.
+INT
+Definition: INT is used to store whole numbers without decimal values.
+Example
+age INT
+
+BIGINT
+Definition: BIGINT stores very large integer values.
+Example
+phone_number BIGINT
+
+DECIMAL(p,s)
+Definition:
+DECIMAL stores exact decimal numbers. p represents total digits and s represents digits after the decimal point.
+Example
+salary DECIMAL(10,2)
+
+FLOAT
+Definition: FLOAT stores approximate decimal values.
+Example
+percentage FLOAT
+
+String Data Types
+String data types are used to store text values.
+
+CHAR(size)
+Definition:CHAR stores fixed-length character strings.
+Example
+gender CHAR(1)
+
+VARCHAR(size)
+Definition: VARCHAR stores variable-length strings.
+Example
+name VARCHAR(100)
+
+TEXT 
+Definition: TEXT is used to store large text values.
+Example
+address TEXT
+
+Date and Time Data Types
+Date and time data types are used to store date and time values.
+
+DATE
+Definition: ATE stores only date values in YYYY-MM-DD format.
+Example
+joining_date DATE
+
+TIME
+Definition: TIME stores time values in HH:MM:SS format.
+Example
+login_time TIME
+
+DATETIME
+Definition: DATETIME stores both date and time values.
+Example
+created_at DATETIME
+
+TIMESTAMP
+Definition: TIMESTAMP stores current system date and time automatically.
+Example
+updated_at TIMESTAMP
+
+
+Boolean Data Type
+Boolean data type is used to store true or false values.
+
+BOOLEAN
+Definition:BOOLEAN stores TRUE or FALSE values.
+Example
+is_active BOOLEAN
