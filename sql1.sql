@@ -9,7 +9,7 @@ Raymond F. Boyce
 Their design was strongly inspired by the relational database theory proposed by:
 Edgar F. Codd:1970: The relational database model was proposed by Edgar F. Codd 
 */
--- what is my sql 
+-- what is mysql 
 /*
 MySQL is a relational database management system (RDBMS)
 —a software used to store, organize, and retrieve data using SQL.
