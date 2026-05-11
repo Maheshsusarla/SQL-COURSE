@@ -1,0 +1,34 @@
+-- SQL INSERT Command: The SQL INSERT command is used to add new data (rows/records) into a table in a database.
+-- Definition: INSERT INTO is an SQL statement that stores new records inside a table.
+
+-- INSERT INTO table_name (column1, column2, column3)
+-- VALUES (value1, value2, value3);
+insert into students1 value(1,'pavan',22,'ds'),(2,'karthik',23,'python'),(3,'mahesh',21,'python');
+
+select * from students1;
+select name from students1;
+select id,name from students1;
+
+
+-- RENAME TABLE Command
+-- Definition: The RENAME TABLE command is used to change the name of an existing table in a database.
+-- syntax:
+-- RENAME TABLE old_table_name TO new_table_name;
+
+rename table students1 to students2;
+select * from students1; -- error table doesnt exits
+rename table students1 to students2;
+
+
+-- SQL DROP Command
+-- Definition: The DROP command is used to permanently delete a database object such as:
+-- Table
+-- Database
+-- Column
+-- -> Deleted data cannot be recovered easily.
+-- DROP TABLE:Used to completely remove a table and all its data.
+-- Syntax
+-- DROP TABLE table_name;
+
+drop  database mydb1;
+drop table students;
